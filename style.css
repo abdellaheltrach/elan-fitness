@@ -552,3 +552,153 @@ button:focus-visible {
   font-size: 13px;
   color: #94a3b8;
 }
+
+/* --- TABLET  --- */
+@media (max-width: 1024px) {
+  .section {
+    padding: 64px 0;
+  }
+
+  .hero-contenu {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-description {
+    margin: 0 auto 32px;
+  }
+
+  .boutons {
+    justify-content: center;
+  }
+
+  .hero-image {
+    width: 100%;
+    height: 350px;
+  }
+
+  .apropos-contenu {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .apropos-image {
+    width: 100%;
+    height: 320px;
+  }
+
+  .cartes {
+    flex-wrap: wrap;
+  }
+
+  .carte-avantage,
+  .carte-programme,
+  .formule {
+    flex: 1 1 calc(50% - 24px);
+    min-width: 260px;
+  }
+
+  .valeurs {
+    flex-wrap: wrap;
+  }
+
+  .valeur {
+    flex: 1 1 calc(50% - 16px);
+  }
+}
+
+/* --- PHONE --- */
+@media (max-width: 768px) {
+  .section {
+    padding: 48px 0;
+  }
+
+  .section-titre {
+    margin-bottom: 40px;
+  }
+
+  .section-titre h2 {
+    font-size: 26px;
+  }
+
+  .en-tete-contenu {
+    height: auto;
+    padding: 16px 0;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .menu {
+    gap: 16px;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 32px 0 48px;
+  }
+
+  .hero-texte h1 {
+    font-size: 32px;
+  }
+
+  .hero-description {
+    font-size: 16px;
+  }
+
+  .boutons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .bouton {
+    width: 100%;
+  }
+
+  .chiffres {
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 40px;
+    padding: 24px;
+  }
+
+  .chiffre + .chiffre {
+    border-left: none;
+    border-top: 1px solid #e5e7eb;
+    padding-top: 24px;
+  }
+
+  .chiffre-nombre {
+    font-size: 28px;
+  }
+
+  .carte-avantage,
+  .carte-programme,
+  .formule,
+  .valeur {
+    flex: 1 1 100%;
+  }
+
+  .formules {
+    margin-top: 48px;
+  }
+
+  .pied-haut {
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .menu-pied {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .pied-bas {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+  }
+}
