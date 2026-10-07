@@ -44,13 +44,12 @@
     </header>
 
     <main>
-      <div class="container">
-        
+      <div class="container" style="padding: 96px">
         <div class="section-titre">
           <h2>Contactez-nous</h2>
           <p>Un programme pour chaque objectif</p>
         </div>
-        <form action="action_page.php">
+        <form method="post">
           <label for="fname">Prenom</label>
           <input
             type="text"
@@ -84,6 +83,20 @@
 
           <input type="submit" value="Submit" />
         </form>
+
+        <h2>Rendez-nous visite</h2>
+
+        <div class="map-container">
+          <iframe
+            src="https://maps.google.com/maps?q=12+Rue+des+Palmiers,+20000+Casablanca&t=&z=16&ie=UTF8&iwloc=&output=embed"
+            title="Élan Fitness — 12 Rue des Palmiers, Casablanca"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+          >
+            >
+          </iframe>
+        </div>
       </div>
     </main>
 

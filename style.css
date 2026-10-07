@@ -9,20 +9,23 @@ html {
 }
 
 body {
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #1F2937;
-  background-color: #F7F8FA;
+  color: #1f2937;
+  background-color: #f7f8fa;
 }
-.logo{
-    width: 160px;
+.logo {
+  width: 160px;
   height: auto;
 }
 
-h1, h2, h3, h4 {
-  font-family: 'Poppins', Arial, sans-serif;
-  color: #0F1B2D;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poppins", Arial, sans-serif;
+  color: #0f1b2d;
 }
 
 a {
@@ -41,7 +44,7 @@ img {
 
 a:focus-visible,
 button:focus-visible {
-  outline: 3px solid #FF6B2C;
+  outline: 3px solid #ff6b2c;
   outline-offset: 2px;
 }
 
@@ -57,9 +60,9 @@ button:focus-visible {
 }
 
 .section-blanche {
-  background-color: #FFFFFF;
-  border-top: 1px solid #E5E7EB;
-  border-bottom: 1px solid #E5E7EB;
+  background-color: #ffffff;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 .section-titre {
@@ -79,13 +82,13 @@ button:focus-visible {
 }
 
 .section-titre p {
-  color: #4B5563;
+  color: #4b5563;
 }
 
 .sur-titre {
   font-size: 14px;
   font-weight: 600;
-  color: #FF6B2C;
+  color: #ff6b2c;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 12px;
@@ -102,23 +105,23 @@ button:focus-visible {
 }
 
 .bouton-principal {
-  background-color: #FF6B2C;
-  border: 1px solid #FF6B2C;
-  color: #FFFFFF;
+  background-color: #ff6b2c;
+  border: 1px solid #ff6b2c;
+  color: #ffffff;
 }
 
 .bouton-principal:hover {
-  background-color: #F05817;
+  background-color: #f05817;
 }
 
 .bouton-secondaire {
-  background-color: #FFFFFF;
-  border: 1px solid #0F1B2D;
-  color: #0F1B2D;
+  background-color: #ffffff;
+  border: 1px solid #0f1b2d;
+  color: #0f1b2d;
 }
 
 .bouton-secondaire:hover {
-  background-color: #F3F4F6;
+  background-color: #f3f4f6;
 }
 
 .cartes {
@@ -128,8 +131,8 @@ button:focus-visible {
 
 .carte {
   flex: 1;
-  background-color: #FFFFFF;
-  border: 1px solid #E5E7EB;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
   border-radius: 12px;
   box-shadow: 0 1px 3px rgba(15, 27, 45, 0.08);
 }
@@ -137,7 +140,7 @@ button:focus-visible {
 .icone {
   width: 48px;
   height: 48px;
-  background-color: #FFF0EA;
+  background-color: #fff0ea;
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -164,8 +167,8 @@ button:focus-visible {
   position: sticky;
   top: 0;
   z-index: 10;
-  background-color: #FFFFFF;
-  border-bottom: 1px solid #E5E7EB;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 .en-tete-contenu {
@@ -178,10 +181,10 @@ button:focus-visible {
 .logo {
   display: flex;
   align-items: center;
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 24px;
   font-weight: 700;
-  color: #0F1B2D;
+  color: #0f1b2d;
 }
 
 .logo::after {
@@ -189,7 +192,7 @@ button:focus-visible {
   width: 10px;
   height: 10px;
   margin-left: 8px;
-  background-color: #FF6B2C;
+  background-color: #ff6b2c;
   border-radius: 50%;
 }
 
@@ -205,13 +208,13 @@ button:focus-visible {
 }
 
 .menu a:hover {
-  color: #FF6B2C;
+  color: #ff6b2c;
 }
 
 .menu .lien-actif {
-  color: #FF6B2C;
+  color: #ff6b2c;
   font-weight: 600;
-  border-bottom-color: #FF6B2C;
+  border-bottom-color: #ff6b2c;
 }
 
 .hero {
@@ -239,7 +242,7 @@ button:focus-visible {
   max-width: 520px;
   font-size: 18px;
   line-height: 1.6;
-  color: #4B5563;
+  color: #4b5563;
   margin-bottom: 32px;
 }
 
@@ -255,7 +258,7 @@ button:focus-visible {
   height: 400px;
   object-fit: cover;
   border-radius: 16px;
-  border: 1px solid #E5E7EB;
+  border: 1px solid #e5e7eb;
   box-shadow: 0 10px 25px rgba(15, 27, 45, 0.15);
 }
 
@@ -263,8 +266,8 @@ button:focus-visible {
   display: flex;
   margin-top: 64px;
   padding: 32px;
-  background-color: #FFFFFF;
-  border: 1px solid #E5E7EB;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
   border-radius: 12px;
   box-shadow: 0 1px 3px rgba(15, 27, 45, 0.08);
 }
@@ -273,23 +276,23 @@ button:focus-visible {
   flex: 1;
   text-align: center;
   font-weight: 500;
-  color: #0F1B2D;
+  color: #0f1b2d;
 }
 
 .chiffre + .chiffre {
-  border-left: 1px solid #E5E7EB;
+  border-left: 1px solid #e5e7eb;
 }
 
 .chiffre-nombre {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 36px;
   font-weight: 800;
-  color: #FF6B2C;
+  color: #ff6b2c;
 }
 
 .carte-avantage {
   padding: 24px;
-  background-color: #F7F8FA;
+  background-color: #f7f8fa;
   box-shadow: none;
 }
 
@@ -303,7 +306,7 @@ button:focus-visible {
 }
 
 .carte-avantage p {
-  color: #4B5563;
+  color: #4b5563;
   line-height: 1.6;
 }
 
@@ -324,7 +327,7 @@ button:focus-visible {
 }
 
 .apropos-texte p {
-  color: #4B5563;
+  color: #4b5563;
   line-height: 1.7;
   margin-bottom: 16px;
 }
@@ -341,13 +344,13 @@ button:focus-visible {
   align-items: center;
   gap: 12px;
   padding: 12px 16px;
-  background-color: #FFFFFF;
-  border: 1px solid #E5E7EB;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
   border-radius: 12px;
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 14px;
   font-weight: 600;
-  color: #0F1B2D;
+  color: #0f1b2d;
 }
 
 .apropos-image {
@@ -385,7 +388,7 @@ button:focus-visible {
 
 .programme-corps p {
   font-size: 15px;
-  color: #4B5563;
+  color: #4b5563;
 }
 
 .etiquette {
@@ -398,17 +401,17 @@ button:focus-visible {
 }
 
 .etiquette-orange {
-  background-color: #FFEDE5;
-  color: #C2410C;
+  background-color: #ffede5;
+  color: #c2410c;
 }
 
 .etiquette-bleue {
-  background-color: #DBEAFE;
-  color: #1D4ED8;
+  background-color: #dbeafe;
+  color: #1d4ed8;
 }
 
 .etiquette-verte {
-  background-color: #D1FAE5;
+  background-color: #d1fae5;
   color: #047857;
 }
 
@@ -418,10 +421,10 @@ button:focus-visible {
   gap: 8px;
   margin-top: auto;
   padding-top: 16px;
-  border-top: 1px solid #E5E7EB;
+  border-top: 1px solid #e5e7eb;
   font-size: 13px;
   font-weight: 600;
-  color: #0F1B2D;
+  color: #0f1b2d;
 }
 
 .programme-corps h3 + p {
@@ -450,23 +453,23 @@ button:focus-visible {
 
 .prix {
   margin: 8px 0 16px;
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 30px;
   font-weight: 800;
-  color: #FF6B2C;
+  color: #ff6b2c;
 }
 
 .prix span {
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   font-weight: 500;
-  color: #4B5563;
+  color: #4b5563;
 }
 
 .prix-note {
   margin: -8px 0 16px;
   font-size: 13px;
-  color: #4B5563;
+  color: #4b5563;
 }
 
 .formule-liste {
@@ -478,7 +481,7 @@ button:focus-visible {
   padding-left: 28px;
   margin-bottom: 12px;
   font-size: 15px;
-  background-image: url('img/icone-check.svg');
+  background-image: url("img/icone-check.svg");
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 16px;
@@ -489,7 +492,7 @@ button:focus-visible {
 }
 
 .formule-populaire {
-  border: 2px solid #FF6B2C;
+  border: 2px solid #ff6b2c;
   box-shadow: 0 10px 25px rgba(255, 107, 44, 0.2);
 }
 
@@ -499,18 +502,18 @@ button:focus-visible {
   left: 50%;
   transform: translateX(-50%);
   padding: 4px 14px;
-  background-color: #FF6B2C;
+  background-color: #ff6b2c;
   border-radius: 999px;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .pied-de-page {
   padding: 48px 0 32px;
-  background-color: #0F1B2D;
-  color: #FFFFFF;
+  background-color: #0f1b2d;
+  color: #ffffff;
 }
 
 .pied-haut {
@@ -522,14 +525,14 @@ button:focus-visible {
 }
 
 .logo-clair {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .slogan {
   margin-top: 8px;
   font-size: 14px;
   font-style: italic;
-  color: #CBD5E1;
+  color: #cbd5e1;
 }
 
 .menu-pied {
@@ -539,7 +542,7 @@ button:focus-visible {
 .menu-pied a {
   font-size: 14px;
   font-weight: 400;
-  color: #E2E8F0;
+  color: #e2e8f0;
 }
 
 .pied-bas {
@@ -547,5 +550,5 @@ button:focus-visible {
   justify-content: space-between;
   margin-top: 24px;
   font-size: 13px;
-  color: #94A3B8;
+  color: #94a3b8;
 }
