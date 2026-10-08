@@ -702,3 +702,15 @@ button:focus-visible {
     gap: 12px;
   }
 }
+
+
+
+
+.zoom-effect {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.08); /* Adjust 1.08 to change zoom level */
+}
