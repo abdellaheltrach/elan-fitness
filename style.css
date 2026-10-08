@@ -705,7 +705,6 @@ button:focus-visible {
 
 
 
-
 .zoom-effect {
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
@@ -713,4 +712,27 @@ button:focus-visible {
 
 .zoom-effect:hover {
   transform: scale(1.08); /* Adjust 1.08 to change zoom level */
+}
+
+
+
+
+
+.carte-programme {
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Image default setup - no hover zoom needed */
+.carte-programme > img {
+  width: 100%;
+  display: block;
+}
+
+/* Hover effect: Only lifts the card and adds a floating shadow */
+.carte-programme:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
