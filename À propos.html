@@ -23,12 +23,54 @@
   <body>
     <header class="en-tete">
       <div class="conteneur en-tete-contenu">
+        <!-- <a href="./index.html" class="logo">Élan Fitness</a> -->
         <a href="./index.html" class="logo">
           <img src="./img/Logo.png" alt="website logo" />
         </a>
+
+        <button
+          class="burger-btn"
+          aria-label="Ouvrir le menu de navigation"
+          aria-expanded="false"
+          aria-controls="menu-principal"
+        >
+          <!-- Hamburger Icon (Visible by default) -->
+          <svg
+            class="icon-burger"
+            viewBox="0 0 24 24"
+            width="28"
+            height="28"
+            stroke="currentColor"
+            stroke-width="2"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+
+          <!-- Close (X) Icon (Hidden by default) -->
+          <svg
+            class="icon-close"
+            viewBox="0 0 24 24"
+            width="28"
+            height="28"
+            stroke="currentColor"
+            stroke-width="2"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+
         <nav aria-label="Navigation principale">
           <ul class="menu">
-            <li><a href="./index.html">Accueil</a></li>
+            <li><a href="./index.html" >Accueil</a></li>
             <li><a href="./À propos.html" class="lien-actif">À propos</a></li>
             <li><a href="./programmes.html">Programmes</a></li>
             <li><a href="./Contactez-nous.html">Contactez-nous</a></li>
@@ -110,5 +152,7 @@
         </div>
       </div>
     </footer>
+        <script src="script.js"></script>
+
   </body>
 </html>

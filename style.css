@@ -553,8 +553,68 @@ button:focus-visible {
   color: #94a3b8;
 }
 
+
+
+.burger-btn {
+  display: none;
+  margin-right: 20px;
+  margin-left: auto; /* Pushes the button to the right end */
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  padding: 4px;
+  z-index: 1001;
+}
+
+/* Icon toggling */
+.burger-btn .icon-close {
+  display: none;
+}
+
+.burger-btn.is-open .icon-burger {
+  display: none;
+}
+
+.burger-btn.is-open .icon-close {
+  display: block;
+}
+
 /* --- TABLET  --- */
 @media (max-width: 1024px) {
+ /* Show the burger button on small screens */
+  .burger-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Hide navigation by default */
+  nav {
+    display: none;
+  }
+
+  /* Show navigation when toggled */
+  nav.is-open {
+    display: block;
+    position: absolute;
+    top: 100%; /* Displays directly below the header */
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+  }
+
+  /* Stack link items vertically */
+  nav.is-open .menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+
+
   .section {
     padding: 64px 0;
   }
@@ -571,6 +631,7 @@ button:focus-visible {
   .boutons {
     justify-content: center;
   }
+
 
   .hero-image {
     width: 100%;
@@ -624,7 +685,7 @@ button:focus-visible {
   .en-tete-contenu {
     height: auto;
     padding: 16px 0;
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 16px;
   }
 
@@ -726,10 +787,10 @@ button:focus-visible {
 }
 
 /* Image default setup - no hover zoom needed */
-.carte-programme > img {
+/* .carte-programme > img {
   width: 100%;
   display: block;
-}
+} */
 
 /* Hover effect: Only lifts the card and adds a floating shadow */
 .carte-programme:hover {
